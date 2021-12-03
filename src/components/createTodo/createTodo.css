@@ -1,0 +1,36 @@
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2rem;
+  width: 400px;
+}
+
+.form-control {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+
+.todo-field {
+  backface-visibility: hidden;
+  height: 100%;
+  border-radius: 20px;
+  padding: 0 2rem 0 0.5rem;
+  width: 100%;
+}
+
+.btn-submit {
+  position: absolute;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 50%;
+  background-color: cadetblue;
+  color: #fff;
+  cursor: pointer;
+}
